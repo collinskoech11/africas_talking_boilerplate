@@ -5,7 +5,6 @@ const credentials = {
 
 
 try {
-    
 const Africastalking = require('africastalking')(credentials)
 const sms = Africastalking.SMS;
 
